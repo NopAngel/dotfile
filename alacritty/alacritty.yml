@@ -1,0 +1,68 @@
+# Window display
+window: {
+  title: "Damnnn"
+}
+
+# Cursor config
+cursor:
+  style:
+    shape: Underline
+    blinking: on
+  unfocused_hollow: false
+  # blink_interval: 550
+
+
+# Color config
+colors:
+  primary:
+    background: "#151515"
+    foreground: "#FAF0E6"
+    dim_foreground: "#151515"
+  cursor:
+    text: "#2e3440"
+    cursor: "#f6bfff"
+  vi_mode_cursor:
+    text: "#2e3440"
+    cursor: "#f6bfff"
+  selection:
+    text: CellForeground
+    background: "#4c566a"
+  search:
+    matches:
+      foreground: CellBackground
+      background: "#88c0d0"
+    footer_bar:
+      background: "#434c5e"
+      foreground: "#d8dee9"
+  normal:
+    black: "#3b4252"
+    red: "#bf616a"
+    green: "#a3be8c"
+    yellow: "#ebcb8b"
+    blue: "#81a1c1"
+    magenta: "#b48ead"
+    cyan: "#88c0d0"
+    white: "#e5e9f0"
+  bright:
+    black: "#4c566a"
+    red: "#bf616a"
+    green: "#a3be8c"
+    yellow: "#ebcb8b"
+    blue: "#81a1c1"
+    magenta: "#b48ead"
+    cyan: "#8fbcbb"
+    white: "#eceff4"
+  dim:
+    black: "#373e4d"
+    red: "#94545d"
+    green: "#809575"
+    yellow: "#b29e75"
+    blue: "#68809a"
+    magenta: "#8c738c"
+    cyan: "#6d96a5"
+    white: "#aeb3bb"
+
+
+# Font configuration
+
+live_config_reload: true
