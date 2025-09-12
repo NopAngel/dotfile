@@ -67,6 +67,12 @@ bindsym $mod+Insert exec alacritty
 # started explorer
 bindsym $mod+f exec firefox
 
+# launcher
+bindsym $mod+Shift+p exec rofi -show drun
+
+# change tab
+bindsym $mod+Tab exec rofi -show window
+
 # file explorer
 bindsym $mod+e exec nautilus
 
